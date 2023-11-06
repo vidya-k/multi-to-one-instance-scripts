@@ -5,7 +5,9 @@ from pymongo import MongoClient
 
 stream = open("multi-tenancy.yml", "r")
 docs = yaml.load_all(stream, yaml.FullLoader)
+print(docs)
 for doc in docs:
+         print(doc)
          for d in doc['tenantDataList']:
             #  print(d['uri'])
              mongoUri='{}/{}'.format(d['uri'].split(',')[0],d['uri'].split(',')[2].split('/')[1].split('?')[0])
@@ -17,7 +19,6 @@ for doc in docs:
              print("***********************************************************")
              print(data_base.name)
              collectionsNames=data_base.list_collection_names()
-            #  print(collectionsNames)
              for collectionName in collectionsNames:
                      collection = data_base[collectionName]
                      reader = csv.reader(open(os.getcwd() + "/yenapoya_degree_details.csv"))
@@ -31,3 +32,7 @@ for doc in docs:
                         upadatedDegrees=collection.update_many({'degree':oldDegreeId},{"$set": {  "degree": newDegreeId}})
                         message2 = 'Collection {} --> updated Degree count {}, modified count {} '.format(collectionName,upadatedDegrees.matched_count,upadatedDegrees.modified_count)
                         print(message2)
+                        if collectionName == 'dhi_user':
+                             upadatedEmployees=collection.update_many({'handlingDegreeAndDepartments.degreeId':oldDegreeId},{"$set": {  "handlingDegreeAndDepartments.$.degreeId": newDegreeId}})
+                             messageemployee = 'Collection {} --> updated Employee {} , {}'.format(collectionName,upadatedEmployees.matched_count,upadatedEmployees.modified_count)
+                             print(messageemployee)
