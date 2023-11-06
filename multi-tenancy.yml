@@ -1,0 +1,7 @@
+---
+groupName: 7070_staging_67
+tenantDataList:
+ - tenantName: dhi_staging_i3
+   uri: mongodb://stagingi3:stD%40h%24i%2133j%21@101.53.134.176:27017,101.53.134.175:27017,101.53.133.141:27017/dhi_staging_i3?replicaSet=stagereplica
+- tenantName: dhi_staging_university
+  uri: mongodb://sdfxbwndhi:Qax%26op%23%24X02c@101.53.134.176:27017,101.53.134.175:27017,101.53.133.141:27017/dhi_staging_university?replicaSet=stagereplica
