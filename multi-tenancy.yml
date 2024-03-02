@@ -1,5 +1,55 @@
 ---
 groupName: 7070_staging_67
 tenantDataList:
- - tenantName: dhi_staging_i3
-   uri: mongodb://stagingi3:stD%40h%24i%2133j%21@101.53.134.176:27017,101.53.134.175:27017,101.53.133.141:27017/dhi_staging_i3?replicaSet=stagereplica
+ - tenantName: tantiagroup_foe
+   uri: mongodb://ksbndnz%2An11:lm%26%2Anas86ssd@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foe?replicaSet=cluster4
+ - tenantName: tantiagroup_sgantc
+   uri: mongodb://tantiya1:Dhi%23rize18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgantc?replicaSet=cluster4
+ - tenantName: tantiagroup_sgcash
+   uri: mongodb://tantiya2:Dhi%23rie18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgcash?replicaSet=cluster4
+ - tenantName: tantiagroup_sgspm
+   uri: mongodb://tantiya3:Dhi%23ri18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgspm?replicaSet=cluster4
+ - tenantName: tantiagroup_sghmc
+   uri: mongodb://tantiya4:Dhi%23ri18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sghmc?replicaSet=cluster4
+ - tenantName: tantiagroup_sstmc
+   uri: mongodb://tantiya5:Dhi%23r18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sstmc?replicaSet=cluster4
+ - tenantName: tantiagroup_sgcn
+   uri: mongodb://tantiya6:Dhi%23rg18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgcn?replicaSet=cluster4
+ - tenantName: tantiagroup_sgns
+   uri: mongodb://tantiya7:Dhi%23rgh18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgns?replicaSet=cluster4
+ - tenantName: tantiagroup_sgcahs
+   uri: mongodb://tantiya8:Dhi%23igh18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgcahs?replicaSet=cluster4
+ - tenantName: tantiagroup_sgipt
+   uri: mongodb://tantiya9:Dhi%23ih18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgipt?replicaSet=cluster4
+ - tenantName: tantiagroup_sgips
+   uri: mongodb://tantiya10:Dhi%23i18%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgips?replicaSet=cluster4
+ - tenantName: tantiagroup_sgvc
+   uri: mongodb://tantiya11:Dhi%23i8%2At@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_sgvc?replicaSet=cluster4
+ - tenantName: tantiagroup_foag
+   uri: mongodb://Cwfdgdgdvb43%23q:vr%21%5DUN%7C%7D%7B65Vgg@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foag?replicaSet=cluster4
+ - tenantName: tantiagroup_foh
+   uri: mongodb://Cjjsd3443%23q:gg%5E%5E%7Cta%23%2365Vgg@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foh?replicaSet=cluster4
+ - tenantName: tantiagroup_fol
+   uri: mongodb://Djjrt6jsd33%23q:ggtto%2365Vgg@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fol?replicaSet=cluster4
+ - tenantName: tantiagroup_fopa
+   uri: mongodb://Fgtsr%24%2444hh:chs%25%25899jj@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fopa?replicaSet=cluster4
+ - tenantName: tantiagroup_fon
+   uri: mongodb://Bffg%24%24345h:hcshj%5E%5E77ii@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fon?replicaSet=cluster4
+ - tenantName: tantiagroup_fope
+   uri: mongodb://Bffg%2A%5E%24t45h:hc%28-jj77ii@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fope?replicaSet=cluster4
+ - tenantName: tantiagroup_fos
+   uri: mongodb://Bfh%40%2A%5E%24t45h:hc%29%2Ajj77ii@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fos?replicaSet=cluster4
+ - tenantName: tantiagroup_foac
+   uri: mongodb://Bfh%409%24%2145h:hc%29%2Ao077ii@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foac?replicaSet=cluster4
+ - tenantName: tantiagroup_fop
+   uri: mongodb://kishdni81nx%23:0usjbdjxd%25sb@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fop?replicaSet=cluster4
+ - tenantName: tantiagroup_fov
+   uri: mongodb://aigs%5E08jn%23cn:skdn%24%25546kmss@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fov?replicaSet=cluster4
+ - tenantName: tantiagroup_fom
+   uri: mongodb://nskksn%2562%25%25ms:%24%24ujdsml08y6s@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_fom?replicaSet=cluster4
+ - tenantName: tantiagroup_foa
+   uri: mongodb://pqindka%5E%2528c:a27%2Asa%5Ejjabns@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foa?replicaSet=cluster4
+ - tenantName: tantiagroup_focm
+   uri: mongodb://dsubau%25%2628bc:k726nkc%29%28ds@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_focm?replicaSet=cluster4
+ - tenantName: tantiagroup_foe
+   uri: mongodb://ksbndnz%2An11:lm%26%2Anas86ssd@10.64.238.29:27017,10.64.238.27:27017,10.64.238.28:27017/tantiagroup_foe?replicaSet=cluster4 
