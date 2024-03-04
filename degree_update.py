@@ -37,7 +37,7 @@ for doc in docs:
                      for line_elem in degreeIds:
                         oldDegreeId = str(line_elem)
                         # newDegreeId= line_elem
-                        newDegreeId= str(oldDegreeId).split(" - "+collegeShortName)[0] + ' - ' + collegeShortName+ ' -  MEHASANA'
+                        newDegreeId= str(oldDegreeId).split(" - "+collegeShortName)[0] + ' - ' + collegeShortName
                         print(oldDegreeId + "  ------->   " + newDegreeId);          
                         upadatedDegreeIds=collection.update_many({'degreeId':oldDegreeId},{"$set": {  "degreeId": newDegreeId}})
                         message1 = 'Collection {} --> updated DegreeId matched count {} , modified count {}'.format(collectionName,upadatedDegreeIds.matched_count,upadatedDegreeIds.modified_count)
