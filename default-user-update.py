@@ -99,7 +99,9 @@ def process_excel(file_path, yaml_config, output_excel_path):
          # Write new email and generated password to the output Excel
             output_sheet.append([tenant_id,new_email, new_password])
         else:
-             print(f"user: {new_email} already present.")
+            new_password = generate_password(new_user)
+            user_collection.update_one({'_id':new_user["_id"]},{"$set": {  "password": new_user["password"]}})
+            print(f"user: {new_email} already present.")
            
 
     # Save the new Excel file with generated passwords
